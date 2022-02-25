@@ -55,7 +55,7 @@ export default {
   },
   beforeMount () {
     this.autoGroupColumnDef = {
-      headerName: 'Core',
+      headerName: 'Grouped',
       field: 'core',
       cellRenderer: 'agGroupCellRenderer',
       cellRendererParams: {
